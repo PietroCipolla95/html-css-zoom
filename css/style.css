@@ -3,3 +3,109 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --zm-black: #222222;
+    --zm-green: #4BC800;
+    --zm-red: #D81E0F;
+}
+
+/* #region debug */
+
+.debug main{
+    background-color: black;
+    height: 1000px;
+}
+.debug header{
+    border: 1px solid red;
+}
+
+.debug span{
+    height: 50px;
+    width: 50px;
+    border: 1px solid yellow;
+}
+
+.debug .container{
+    border: 1px solid green;
+}
+
+.debug footer{
+    border: 1px solid palevioletred;
+    height: 100px;
+}
+
+
+
+
+/* #region debug */
+
+/* #region utility */
+
+.d-flex{
+    display: flex;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* #endregion utility */
+
+
+/* #region header */
+
+header{
+    background-color: black;
+    height: 100px;
+}
+
+.view span{
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+.view{
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+}
+
+
+
+/* #endregion header */
+
+/* #region Main */
+
+body{
+    background-color: black;
+}
+
+main{
+    overflow-y: hidden;
+}
+
+
+
+
+
+
+/* #endregion body */
+
+/* #region footer */
+
+footer{
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+/* #endregion footer */
