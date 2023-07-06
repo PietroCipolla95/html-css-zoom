@@ -12,7 +12,6 @@
 }
 
 /* #region debug */
-
 .debug main{
     background-color: black;
     
@@ -63,15 +62,7 @@
     height: 20px;
     width: 30px;
 }
-
-
-
-
-
-
-
-
-/* #region debug */
+/* #endregion debug */
 
 /* #region utility */
 
@@ -80,7 +71,7 @@
 }
 
 .container{
-    width: 90%;
+    width: 1900px;
     margin: auto;
 }
 
@@ -119,7 +110,6 @@ header{
 
 body{
     background-color: black;
-    width: 100%;
 }
 
 main{
@@ -135,13 +125,16 @@ main{
 
 .card{
     position: relative;
-    margin: 1rem;
+    margin: 0.4rem 0.2rem;
 }
 
 .info{
     position: absolute;
     left: 0;
     bottom: 0;
+    background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+    padding: 0.4rem;
 }
 
 
