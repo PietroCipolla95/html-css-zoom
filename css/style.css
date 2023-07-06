@@ -147,6 +147,12 @@ footer{
     z-index: 100;
 }
 
+.bottom{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 
 .columns{
     justify-content: space-between;
