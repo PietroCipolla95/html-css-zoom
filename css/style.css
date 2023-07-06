@@ -26,26 +26,46 @@
     border: 1px solid yellow;
 }
 
-.debug .container{
+.debug .partecipants{
     border: 1px solid green;
+    height: 800px;
 }
 
 .debug footer{
-    border: 1px solid palevioletred;
-    height: 100px;
+    background-color: palevioletred;
+    height: 90px;
 }
 
 .debug .bottom{
-    height: 150px;
-    border: 1px solid palegreen;
+    height: 60px;
+    background-color:  palegreen;
     margin: 1rem;
 }
+
+.debug .output,
+.debug .commands,
+.debug .endcall  {
+    height: 50px;
+    background-color: white;
+}
+
+
 
 .debug .card{
     border: 1px solid white;
     height: 144px;
     width: calc(100% / 7)
 }
+
+.debug .info{
+    background-color: rebeccapurple;
+    height: 20px;
+    width: 30px;
+}
+
+
+
+
 
 
 
@@ -97,6 +117,11 @@ body{
     width: 100%;
 }
 
+main{
+    overflow-y: auto;
+    margin: 200rem;
+}
+
 .row{
     padding: 2rem;
     flex-wrap: wrap;
@@ -104,7 +129,14 @@ body{
 }
 
 .card{
+    position: relative;
     margin: 1rem;
+}
+
+.info{
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 
@@ -119,11 +151,24 @@ body{
 /* #region footer */
 
 footer{
-    height: 200px;
+    height: 90px;
     position: fixed;
     bottom: 0;
     width: 100%;
     padding-bottom: 1rem;
+}
+
+.bottom{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.output, .endcall{
+    width: 10%;
+}
+
+.commands{
+    width: 60%;
 }
 
 
