@@ -119,7 +119,7 @@ body{
 
 main{
     overflow-y: auto;
-    margin: 200rem;
+    padding-bottom: 2rem;
 }
 
 .row{
