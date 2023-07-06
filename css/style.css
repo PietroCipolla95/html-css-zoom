@@ -64,7 +64,7 @@
 }
 /* #endregion debug */
 
-/* #region utility */
+/* #region utility and hover */
 
 .d-flex{
     display: flex;
@@ -77,7 +77,15 @@
     padding: 0.5rem;
 }
 
-/* #endregion utility */
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: violet;
+}
+
+/* #endregion utility and hover */
 
 
 /* #region header */
@@ -174,17 +182,12 @@ footer{
     color: var(--zm-green);
 }
 
-a:hover{
-    color: violet;
-}
-
 .col-3{
-    text-align: center;
+    background-color: var(--zm-grey);
 }
 
-
-
-
-
-
+h4{
+    margin: 1rem;
+    color: var(--zm-red);
+}
 /* #endregion footer */
