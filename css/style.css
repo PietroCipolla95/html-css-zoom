@@ -70,6 +70,13 @@
     display: flex;
 }
 
+.p-05flex{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+}
+
 /* #endregion utility */
 
 
@@ -112,7 +119,7 @@ main{
     padding-bottom: 5rem;
 }
 
-.row{
+.row-main{
     padding: 2rem;
     flex-wrap: wrap;
     justify-content: center;
@@ -140,36 +147,44 @@ main{
 
 footer{
     background-color: var(--zm-footer);
-    height: 90px;
+    height: 100px;
+    width: 100%;
     position: sticky;
     bottom: 0;
-    width: 100%;
     z-index: 100;
+    font-weight: bolder;
+    color: white;
 }
 
-.bottom{
+.row-footer{
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    padding: 0;
 }
 
-
-.columns{
-    justify-content: space-between;
-    align-items: center;
+[class^="col-"]{
+    padding: 0.5rem;
+    align-items: center;    
 }
 
-.output, .endcall{
-    width: 10%;
-}
-
-.commands{
-    width: 60%;
-}
-
-.sub-1{
+.mic{
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
 }
+
+.video{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.mic > *,
+.video > *{
+    padding: 0.5rem;
+}
+
 
 
 
