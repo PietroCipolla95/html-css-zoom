@@ -166,24 +166,15 @@ footer{
     align-items: center;    
 }
 
-.mic{
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+.p-05flex > * {
     padding: 0.5rem;
 }
 
-.video{
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0.5rem;
+.share i{
+    color: var(--zm-green);
 }
 
-.mic > *,
-.video > *{
-    padding: 0.5rem;
-}
+
 
 
 
