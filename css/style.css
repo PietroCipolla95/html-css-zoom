@@ -92,7 +92,7 @@ header{
     border-radius: 5px;
     margin-top: 1rem;
     margin-left: 0.8rem;
-    font-size: 10px;
+    font-size: 15px;
 }
    
 
@@ -100,7 +100,8 @@ header{
     position: fixed;
     justify-content: flex-end;
     right: 0.2rem;
-    top: 0.2rem;    
+    top: 1rem;    
+    z-index: 100;
 }
 
 
@@ -109,12 +110,12 @@ header{
 /* #region Main */
 
 body{
+    overflow-y: auto;
     background-color: black;
 }
 
 main{
-    overflow-y: auto;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
 }
 
 .row{
@@ -143,12 +144,13 @@ main{
 /* #region footer */
 
 footer{
-    background-color: var(--zm-black);
+    background-color: var(--zm-footer);
     height: 90px;
     position: fixed;
     bottom: 0;
     width: 100%;
     padding-bottom: 1rem;
+    z-index: 100;
 }
 
 .bottom{
