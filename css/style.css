@@ -70,8 +70,6 @@
     display: flex;
 }
 
-
-
 /* #endregion utility */
 
 
@@ -107,7 +105,6 @@ header{
 /* #region Main */
 
 body{
-    overflow-y: auto;
     background-color: black;
 }
 
@@ -124,6 +121,7 @@ main{
 .card{
     position: relative;
     margin: 0.4rem 0.2rem;
+    overflow-y: auto;
 }
 
 .info{
@@ -143,15 +141,16 @@ main{
 footer{
     background-color: var(--zm-footer);
     height: 90px;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
     z-index: 100;
 }
 
-.bottom{
+
+.columns{
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .output, .endcall{
@@ -162,6 +161,9 @@ footer{
     width: 60%;
 }
 
+.sub-1{
+    flex-direction: column;
+}
 
 
 
