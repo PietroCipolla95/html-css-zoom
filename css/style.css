@@ -92,7 +92,12 @@ a:hover{
 
 header{
     background-color: black;
-    height: 100px;
+    height: 60px;
+    padding: 1rem;
+}
+
+.view{
+    justify-content: flex-end;
 }
 
 .view span{
@@ -100,19 +105,12 @@ header{
     color: white;
     padding: 0.3rem;
     border-radius: 5px;
-    margin-top: 1rem;
-    margin-left: 0.8rem;
-    font-size: 15px;
+    margin: 0 0.2rem 0 0.5rem;
+    font-size: 15px;    
 }
+
    
 
-.view{
-    position: fixed;
-    justify-content: flex-end;
-    right: 0.2rem;
-    top: 1rem;    
-    z-index: 100;
-}
 
 
 /* #endregion header */
@@ -124,7 +122,9 @@ body{
 }
 
 main{
-    padding-bottom: 5rem;
+    overflow-y: auto;
+    height: calc(100vh - 160px);
+    
 }
 
 .row-main{
@@ -136,7 +136,6 @@ main{
 .card{
     position: relative;
     margin: 0.4rem 0.2rem;
-    overflow-y: auto;
 }
 
 .info{
@@ -157,9 +156,7 @@ footer{
     background-color: var(--zm-footer);
     height: 100px;
     width: 100%;
-    position: sticky;
-    bottom: 0;
-    z-index: 100;
+    
     font-weight: bolder;
     color: white;
 }
