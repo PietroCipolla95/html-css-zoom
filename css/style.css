@@ -87,7 +87,6 @@ a:hover{
 
 /* #endregion utility and hover */
 
-
 /* #region header */
 
 header{
@@ -164,10 +163,11 @@ footer{
 
 [class^="col-"]{
     padding: 0.5rem;
-    align-items: center;    
+    align-items: center; 
+    justify-content: space-between;   
 }
 
-.p-05flex > * {
+.p-05flex > *  {
     padding: 0.5rem;
 }
 
